@@ -12,7 +12,9 @@ set(INCLUDE_DIR /usr/include)
 set(LIB_DIR /usr/lib)
 include_directories(${INCLUDE_DIR})
 link_directories(${LIB_DIR} usr/lib/x86_64-linux-gnu)
+# MYSQL
 set(MYSQL_LIBS mysqlclient pthread dl ssl crypto resolv m rt)
+# add MY_LIBS 
 set(ALL_LIBS ThreadPool Timer Log Lock CGIMysql Http ${MYSQL_LIBS})
 
 aux_source_directory(. DIR_SRCS)
