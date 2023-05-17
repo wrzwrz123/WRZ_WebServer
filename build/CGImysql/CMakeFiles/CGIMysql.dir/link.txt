@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCGIMysql.a CMakeFiles/CGIMysql.dir/sql_connection_pool.cpp.o
+/usr/bin/ranlib libCGIMysql.a

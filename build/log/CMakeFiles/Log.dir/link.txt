@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLog.a CMakeFiles/Log.dir/block_queue.cpp.o CMakeFiles/Log.dir/log.cpp.o
+/usr/bin/ranlib libLog.a
